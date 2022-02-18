@@ -1,17 +1,18 @@
 <template>
-	<v-app-bar elevation="4" app>
-		<v-tabs fixed-tabs>
-			<v-tab> Option </v-tab>
-			<v-tab> Another Selection </v-tab>
-			<v-tab> Items </v-tab>
-			<v-tab> Another Screen </v-tab>
-		</v-tabs>
+	<v-app-bar dense elevation="4" flat app>
+		<v-switch v-model="$vuetify.theme.dark"></v-switch>
 	</v-app-bar>
 </template>
 
 <script>
 export default {
 	name: "AppBar",
+	props: {
+		attrs: {
+			type: Object,
+			default: () => ({}),
+		},
+	},
 	data: () => {
 		return {};
 	},
