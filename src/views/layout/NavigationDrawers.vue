@@ -3,7 +3,7 @@
 		v-model="drawer"
 		:mini-variant.sync="mini"
 		dark
-		src="https://cdn.vuetifyjs.com/images/backgrounds/bg-2.jpg"
+		src="img/backgrounds/bg-2.jpg"
 		permanent
 		app
 	>

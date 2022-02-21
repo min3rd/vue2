@@ -1,5 +1,5 @@
 <template>
-	<v-card>
+	<v-app>
 		<!-- <v-system-bar></v-system-bar> -->
 		<AppBar></AppBar>
 		<NavigationDrawers></NavigationDrawers>
@@ -10,7 +10,7 @@
 		</v-main>
 		<!-- <v-footer app></v-footer> -->
 		<!-- <v-footer-navigation></v-footer-navigation> -->
-	</v-card>
+	</v-app>
 </template>
 
 <script>
